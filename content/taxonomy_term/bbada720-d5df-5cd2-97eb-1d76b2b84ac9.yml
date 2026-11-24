@@ -1,0 +1,28 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: bbada720-d5df-5cd2-97eb-1d76b2b84ac9
+  bundle: skill
+  default_langcode: en
+  depends:
+    95476ca6-d559-564d-a07f-9883cf1c2fa0: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Phone calls'
+  weight:
+    -
+      value: 1
+  parent:
+    -
+      entity: 95476ca6-d559-564d-a07f-9883cf1c2fa0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null

@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a6902e5e-88c0-50e8-8ce5-4f36700e2e3c
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    53ac21e5-99c5-550f-9d17-8e869043f03a: taxonomy_term
+    41a63cdb-e363-5051-9b9f-980f59c12992: taxonomy_term
+    97e79c07-5806-5f88-9a8a-151a0c03c721: node
+    afc26712-8f30-528b-a50b-eb17f65e7f6a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Load the van'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 2
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 53ac21e5-99c5-550f-9d17-8e869043f03a
+    -
+      entity: 41a63cdb-e363-5051-9b9f-980f59c12992
+  field_location:
+    -
+      entity: 97e79c07-5806-5f88-9a8a-151a0c03c721
+  field_shift:
+    -
+      value: '2027-01-07T18:00:00'
+      end_value: '2027-01-07T19:00:00'
+  field_skills:
+    -
+      entity: afc26712-8f30-528b-a50b-eb17f65e7f6a
+  field_summary:
+    -
+      value: 'Load the van at the warehouse before it leaves.'

@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 16e2d214-7ece-580d-9d45-b61b718a60fa
+  bundle: location
+  default_langcode: en
+  depends:
+    c4766c9b-2a32-512a-bf08-28e111f407a5: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Community Kitchen'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_address:
+    -
+      langcode: ''
+      country_code: US
+      administrative_area: OH
+      locality: Millbrook
+      dependent_locality: ''
+      postal_code: '45011'
+      sorting_code: ''
+      address_line1: '501 Main Street'
+      address_line2: ''
+      address_line3: ''
+  field_hours:
+    -
+      value: '<p>Monday to Friday, lunch served 11:30 to 1</p>'
+      format: basic_html
+  field_location_type:
+    -
+      entity: c4766c9b-2a32-512a-bf08-28e111f407a5
+  field_phone:
+    -
+      value: '(555) 010-0105'

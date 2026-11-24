@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c1d9d360-a291-507f-8151-0addca05d28c
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    0e82b43c-2faf-5718-9a15-1dfad8a5f535: taxonomy_term
+    41a63cdb-e363-5051-9b9f-980f59c12992: taxonomy_term
+    b8306c71-a2f8-50cc-adb6-0e9cece0ec7c: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Sort the food drive'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 12
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 0e82b43c-2faf-5718-9a15-1dfad8a5f535
+    -
+      entity: 41a63cdb-e363-5051-9b9f-980f59c12992
+  field_location:
+    -
+      entity: b8306c71-a2f8-50cc-adb6-0e9cece0ec7c
+  field_shift:
+    -
+      value: '2027-02-03T18:00:00'
+      end_value: '2027-02-03T21:00:00'
+  field_summary:
+    -
+      value: 'Sort everything the school food drive brought in.'

@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 80f0409e-085b-58ed-8387-fe3cff91e046
+  bundle: story
+  default_langcode: en
+  depends:
+    97e79c07-5806-5f88-9a8a-151a0c03c721: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Why I drive the van'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_body:
+    -
+      value: '<p>Every Thursday the van parks at a different church. Its driver explains why he keeps showing up.</p>'
+      format: basic_html
+  field_location:
+    -
+      entity: 97e79c07-5806-5f88-9a8a-151a0c03c721

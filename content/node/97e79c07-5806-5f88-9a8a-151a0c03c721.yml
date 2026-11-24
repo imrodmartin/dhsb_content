@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 97e79c07-5806-5f88-9a8a-151a0c03c721
+  bundle: location
+  default_langcode: en
+  depends:
+    d053a9a1-f4ba-5327-a26c-f7698027dc76: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Mobile Pantry Van'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_hours:
+    -
+      value: '<p>Thursday 3 to 6, at a different church each week</p>'
+      format: basic_html
+  field_location_type:
+    -
+      entity: d053a9a1-f4ba-5327-a26c-f7698027dc76
+  field_phone:
+    -
+      value: '(555) 010-0107'

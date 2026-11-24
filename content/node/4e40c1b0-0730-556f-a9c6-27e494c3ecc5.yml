@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4e40c1b0-0730-556f-a9c6-27e494c3ecc5
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    53ac21e5-99c5-550f-9d17-8e869043f03a: taxonomy_term
+    b8306c71-a2f8-50cc-adb6-0e9cece0ec7c: node
+    cded3dcd-7ccf-5da9-9d34-c6f2bb7bc5fa: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Unload the delivery truck'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 4
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 53ac21e5-99c5-550f-9d17-8e869043f03a
+  field_location:
+    -
+      entity: b8306c71-a2f8-50cc-adb6-0e9cece0ec7c
+  field_shift:
+    -
+      value: '2027-01-04T13:00:00'
+      end_value: '2027-01-04T15:00:00'
+    -
+      value: '2027-01-11T13:00:00'
+      end_value: '2027-01-11T15:00:00'
+    -
+      value: '2027-01-18T13:00:00'
+      end_value: '2027-01-18T15:00:00'
+  field_skills:
+    -
+      entity: cded3dcd-7ccf-5da9-9d34-c6f2bb7bc5fa
+  field_summary:
+    -
+      value: 'Unload pallets from the regional food bank truck.'

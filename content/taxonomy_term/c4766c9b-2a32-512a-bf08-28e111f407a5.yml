@@ -1,0 +1,23 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c4766c9b-2a32-512a-bf08-28e111f407a5
+  bundle: location_type
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Kitchen
+  weight:
+    -
+      value: 1
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null

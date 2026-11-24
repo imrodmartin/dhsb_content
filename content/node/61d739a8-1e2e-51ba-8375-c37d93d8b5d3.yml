@@ -1,0 +1,58 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 61d739a8-1e2e-51ba-8375-c37d93d8b5d3
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    41a63cdb-e363-5051-9b9f-980f59c12992: taxonomy_term
+    ee324a75-47e1-5d6d-9242-a0f3cc7f5799: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Teen volunteer orientation'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 15
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 41a63cdb-e363-5051-9b9f-980f59c12992
+  field_location:
+    -
+      entity: ee324a75-47e1-5d6d-9242-a0f3cc7f5799
+  field_shift:
+    -
+      value: '2027-01-23T15:00:00'
+      end_value: '2027-01-23T16:30:00'
+  field_summary:
+    -
+      value: 'A short orientation for volunteers aged 14 to 17.'

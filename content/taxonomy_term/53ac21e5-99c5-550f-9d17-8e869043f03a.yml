@@ -1,0 +1,23 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 53ac21e5-99c5-550f-9d17-8e869043f03a
+  bundle: volunteer_group
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Individuals
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null

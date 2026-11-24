@@ -1,0 +1,68 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9b08f43e-ad1d-5b08-96a0-958594e8225c
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    53ac21e5-99c5-550f-9d17-8e869043f03a: taxonomy_term
+    41a63cdb-e363-5051-9b9f-980f59c12992: taxonomy_term
+    16e2d214-7ece-580d-9d45-b61b718a60fa: node
+    19f9f551-10c6-5048-b88c-d471a726cfb3: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Wash dishes at Community Kitchen'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 2
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 53ac21e5-99c5-550f-9d17-8e869043f03a
+    -
+      entity: 41a63cdb-e363-5051-9b9f-980f59c12992
+  field_location:
+    -
+      entity: 16e2d214-7ece-580d-9d45-b61b718a60fa
+  field_shift:
+    -
+      value: '2027-01-08T18:00:00'
+      end_value: '2027-01-08T20:00:00'
+    -
+      value: '2027-01-15T18:00:00'
+      end_value: '2027-01-15T20:00:00'
+  field_skills:
+    -
+      entity: 19f9f551-10c6-5048-b88c-d471a726cfb3
+  field_summary:
+    -
+      value: 'Keep the dish line moving after lunch.'

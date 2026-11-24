@@ -1,0 +1,28 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 19f9f551-10c6-5048-b88c-d471a726cfb3
+  bundle: skill
+  default_langcode: en
+  depends:
+    29bf32c0-5317-5d8a-8c7c-74fd35bcd030: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Dishwashing
+  weight:
+    -
+      value: 1
+  parent:
+    -
+      entity: 29bf32c0-5317-5d8a-8c7c-74fd35bcd030
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null

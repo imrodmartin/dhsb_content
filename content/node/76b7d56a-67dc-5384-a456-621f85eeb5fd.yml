@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 76b7d56a-67dc-5384-a456-621f85eeb5fd
+  bundle: story
+  default_langcode: en
+  depends:
+    01b8ec06-4a99-54f6-ba42-1bb028c20ee5: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'A Thanksgiving table for the Ortiz family'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_body:
+    -
+      value: '<p>When the plant closed, the Ortiz family came to Eastside for the first time. This is what happened next.</p>'
+      format: basic_html
+  field_location:
+    -
+      entity: 01b8ec06-4a99-54f6-ba42-1bb028c20ee5

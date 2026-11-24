@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a62c16b4-cca9-5aac-80d9-ca519d36a24d
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    53ac21e5-99c5-550f-9d17-8e869043f03a: taxonomy_term
+    2a453752-5cfe-53ce-83c7-6385c0b2fbcc: taxonomy_term
+    01b8ec06-4a99-54f6-ba42-1bb028c20ee5: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Stock shelves at Eastside'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 4
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 53ac21e5-99c5-550f-9d17-8e869043f03a
+    -
+      entity: 2a453752-5cfe-53ce-83c7-6385c0b2fbcc
+  field_location:
+    -
+      entity: 01b8ec06-4a99-54f6-ba42-1bb028c20ee5
+  field_shift:
+    -
+      value: '2027-01-09T14:00:00'
+      end_value: '2027-01-09T17:00:00'
+    -
+      value: '2027-01-23T14:00:00'
+      end_value: '2027-01-23T17:00:00'
+    -
+      value: '2027-02-06T14:00:00'
+      end_value: '2027-02-06T17:00:00'
+  field_summary:
+    -
+      value: 'Restock shelves before Saturday distribution.'

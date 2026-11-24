@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9d21bb09-7727-5546-82f5-eb54c200800b
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    53ac21e5-99c5-550f-9d17-8e869043f03a: taxonomy_term
+    0e82b43c-2faf-5718-9a15-1dfad8a5f535: taxonomy_term
+    16e2d214-7ece-580d-9d45-b61b718a60fa: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Serve lunch at Community Kitchen'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 6
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 53ac21e5-99c5-550f-9d17-8e869043f03a
+    -
+      entity: 0e82b43c-2faf-5718-9a15-1dfad8a5f535
+  field_location:
+    -
+      entity: 16e2d214-7ece-580d-9d45-b61b718a60fa
+  field_shift:
+    -
+      value: '2027-01-05T16:00:00'
+      end_value: '2027-01-05T18:30:00'
+    -
+      value: '2027-01-07T16:00:00'
+      end_value: '2027-01-07T18:30:00'
+    -
+      value: '2027-01-12T16:00:00'
+      end_value: '2027-01-12T18:30:00'
+  field_summary:
+    -
+      value: 'Serve a hot lunch and clear tables.'

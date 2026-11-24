@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 43c9550d-f5c6-5210-89cd-9878849d51ce
+  bundle: location
+  default_langcode: en
+  depends:
+    232202ee-52d6-5ab9-82fd-69ae2f185962: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Southfield Pantry'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_address:
+    -
+      langcode: ''
+      country_code: US
+      administrative_area: OH
+      locality: Millbrook
+      dependent_locality: ''
+      postal_code: '45011'
+      sorting_code: ''
+      address_line1: '15 Field Lane'
+      address_line2: ''
+      address_line3: ''
+  field_hours:
+    -
+      value: '<p>Tuesday 3 to 6<br>Saturday 9 to noon</p>'
+      format: basic_html
+  field_location_type:
+    -
+      entity: 232202ee-52d6-5ab9-82fd-69ae2f185962
+  field_phone:
+    -
+      value: '(555) 010-0104'

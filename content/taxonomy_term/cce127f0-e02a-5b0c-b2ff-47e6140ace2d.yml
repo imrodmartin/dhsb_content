@@ -1,0 +1,23 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: cce127f0-e02a-5b0c-b2ff-47e6140ace2d
+  bundle: skill
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Warehouse
+  weight:
+    -
+      value: 2
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null

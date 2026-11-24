@@ -1,0 +1,109 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c1581ca8-e16f-5dc0-a9bb-84f76135a5bc
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    53ac21e5-99c5-550f-9d17-8e869043f03a: taxonomy_term
+    41a63cdb-e363-5051-9b9f-980f59c12992: taxonomy_term
+    0e82b43c-2faf-5718-9a15-1dfad8a5f535: taxonomy_term
+    01b8ec06-4a99-54f6-ba42-1bb028c20ee5: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Sort donations at Eastside'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 8
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 53ac21e5-99c5-550f-9d17-8e869043f03a
+    -
+      entity: 41a63cdb-e363-5051-9b9f-980f59c12992
+    -
+      entity: 0e82b43c-2faf-5718-9a15-1dfad8a5f535
+  field_location:
+    -
+      entity: 01b8ec06-4a99-54f6-ba42-1bb028c20ee5
+  field_shift:
+    -
+      value: '2027-01-05T14:00:00'
+      end_value: '2027-01-05T17:00:00'
+    -
+      value: '2027-01-07T14:00:00'
+      end_value: '2027-01-07T17:00:00'
+    -
+      value: '2027-01-12T14:00:00'
+      end_value: '2027-01-12T17:00:00'
+    -
+      value: '2027-01-14T14:00:00'
+      end_value: '2027-01-14T17:00:00'
+    -
+      value: '2027-01-19T14:00:00'
+      end_value: '2027-01-19T17:00:00'
+    -
+      value: '2027-01-21T14:00:00'
+      end_value: '2027-01-21T17:00:00'
+    -
+      value: '2027-01-26T14:00:00'
+      end_value: '2027-01-26T17:00:00'
+    -
+      value: '2027-01-28T14:00:00'
+      end_value: '2027-01-28T17:00:00'
+    -
+      value: '2027-02-02T14:00:00'
+      end_value: '2027-02-02T17:00:00'
+    -
+      value: '2027-02-04T14:00:00'
+      end_value: '2027-02-04T17:00:00'
+    -
+      value: '2027-02-09T14:00:00'
+      end_value: '2027-02-09T17:00:00'
+    -
+      value: '2027-02-11T14:00:00'
+      end_value: '2027-02-11T17:00:00'
+    -
+      value: '2027-02-16T14:00:00'
+      end_value: '2027-02-16T17:00:00'
+    -
+      value: '2027-02-18T14:00:00'
+      end_value: '2027-02-18T17:00:00'
+    -
+      value: '2027-02-23T14:00:00'
+      end_value: '2027-02-23T17:00:00'
+    -
+      value: '2027-02-25T14:00:00'
+      end_value: '2027-02-25T17:00:00'
+  field_summary:
+    -
+      value: 'Sort canned and dry goods for the week ahead. No experience needed.'

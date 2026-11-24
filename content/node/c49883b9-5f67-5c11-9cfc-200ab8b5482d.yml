@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c49883b9-5f67-5c11-9cfc-200ab8b5482d
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    2a453752-5cfe-53ce-83c7-6385c0b2fbcc: taxonomy_term
+    0e82b43c-2faf-5718-9a15-1dfad8a5f535: taxonomy_term
+    41a63cdb-e363-5051-9b9f-980f59c12992: taxonomy_term
+    b8306c71-a2f8-50cc-adb6-0e9cece0ec7c: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Pack holiday boxes'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 20
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 2a453752-5cfe-53ce-83c7-6385c0b2fbcc
+    -
+      entity: 0e82b43c-2faf-5718-9a15-1dfad8a5f535
+    -
+      entity: 41a63cdb-e363-5051-9b9f-980f59c12992
+  field_location:
+    -
+      entity: b8306c71-a2f8-50cc-adb6-0e9cece0ec7c
+  field_shift:
+    -
+      value: '2027-02-18T14:00:00'
+      end_value: '2027-02-18T18:00:00'
+    -
+      value: '2027-02-20T14:00:00'
+      end_value: '2027-02-20T18:00:00'
+  field_summary:
+    -
+      value: 'Pack boxes for the spring holiday drive.'

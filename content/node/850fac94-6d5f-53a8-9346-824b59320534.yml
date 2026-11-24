@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 850fac94-6d5f-53a8-9346-824b59320534
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    53ac21e5-99c5-550f-9d17-8e869043f03a: taxonomy_term
+    5524e705-58d8-5e43-8e56-b7691b66b772: node
+    8223f8b5-eaed-5018-8201-948280425e81: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Enter client visits at Riverside'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 1
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 53ac21e5-99c5-550f-9d17-8e869043f03a
+  field_location:
+    -
+      entity: 5524e705-58d8-5e43-8e56-b7691b66b772
+  field_shift:
+    -
+      value: '2027-01-15T15:00:00'
+      end_value: '2027-01-15T18:00:00'
+  field_skills:
+    -
+      entity: 8223f8b5-eaed-5018-8201-948280425e81
+  field_summary:
+    -
+      value: 'Record client visits in the intake spreadsheet.'

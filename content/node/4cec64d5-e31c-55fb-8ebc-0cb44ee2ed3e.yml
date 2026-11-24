@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4cec64d5-e31c-55fb-8ebc-0cb44ee2ed3e
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    53ac21e5-99c5-550f-9d17-8e869043f03a: taxonomy_term
+    0e82b43c-2faf-5718-9a15-1dfad8a5f535: taxonomy_term
+    b8306c71-a2f8-50cc-adb6-0e9cece0ec7c: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Inventory count at the warehouse'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 4
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 53ac21e5-99c5-550f-9d17-8e869043f03a
+    -
+      entity: 0e82b43c-2faf-5718-9a15-1dfad8a5f535
+  field_location:
+    -
+      entity: b8306c71-a2f8-50cc-adb6-0e9cece0ec7c
+  field_shift:
+    -
+      value: '2027-01-13T14:00:00'
+      end_value: '2027-01-13T17:00:00'
+  field_summary:
+    -
+      value: 'Count stock so the pantries can order what they need.'

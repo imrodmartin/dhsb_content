@@ -1,0 +1,8 @@
+Millbrook's old site: addresses printed on flyers
+Old address          Where it should go now
+/volunteer.html      The Find a shift listing (Module 6). Point it at Eastside Pantry for now.
+/pantries.html       Eastside Pantry, until Get help has its own page
+/eastside.html       Eastside Pantry
+/kitchen.html        Community Kitchen
+/van-schedule.html   Mobile Pantry Van
+/donate.html         The home page, until Give has its own page

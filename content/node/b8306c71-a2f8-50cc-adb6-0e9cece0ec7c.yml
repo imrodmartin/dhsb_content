@@ -1,0 +1,56 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b8306c71-a2f8-50cc-adb6-0e9cece0ec7c
+  bundle: location
+  default_langcode: en
+  depends:
+    abe199a4-0b5f-5b52-a560-afa60a7a861c: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Millbrook Warehouse'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_address:
+    -
+      langcode: ''
+      country_code: US
+      administrative_area: OH
+      locality: Millbrook
+      dependent_locality: ''
+      postal_code: '45011'
+      sorting_code: ''
+      address_line1: '9 Depot Way'
+      address_line2: ''
+      address_line3: ''
+  field_hours:
+    -
+      value: '<p>Monday to Friday 8 to 4</p>'
+      format: basic_html
+  field_location_type:
+    -
+      entity: abe199a4-0b5f-5b52-a560-afa60a7a861c
+  field_phone:
+    -
+      value: '(555) 010-0106'

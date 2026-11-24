@@ -1,0 +1,9 @@
+{
+    "name": "imrodmartin/dhsb_content",
+    "description": "DrupalHelps Site Building course: Millbrook Community Food Network content. Imports content only and expects the Module 2 content model.",
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "drupal/core": "^11.5"
+    }
+}

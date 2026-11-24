@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a4aab505-0cf1-598d-bd52-f8a68ca0b1d1
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    53ac21e5-99c5-550f-9d17-8e869043f03a: taxonomy_term
+    ee324a75-47e1-5d6d-9242-a0f3cc7f5799: node
+    ce58fc67-80a1-5b73-afb2-093ee24285ff: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Translate for clients at Northgate'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 1
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 53ac21e5-99c5-550f-9d17-8e869043f03a
+  field_location:
+    -
+      entity: ee324a75-47e1-5d6d-9242-a0f3cc7f5799
+  field_shift:
+    -
+      value: '2027-01-25T21:00:00'
+      end_value: '2027-01-26T00:00:00'
+  field_skills:
+    -
+      entity: ce58fc67-80a1-5b73-afb2-093ee24285ff
+  field_summary:
+    -
+      value: 'Help Vietnamese-speaking clients with intake forms.'

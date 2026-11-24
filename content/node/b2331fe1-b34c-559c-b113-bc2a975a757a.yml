@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b2331fe1-b34c-559c-b113-bc2a975a757a
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    2a453752-5cfe-53ce-83c7-6385c0b2fbcc: taxonomy_term
+    41a63cdb-e363-5051-9b9f-980f59c12992: taxonomy_term
+    43c9550d-f5c6-5210-89cd-9878849d51ce: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Kids snack packs at Southfield'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 8
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 2a453752-5cfe-53ce-83c7-6385c0b2fbcc
+    -
+      entity: 41a63cdb-e363-5051-9b9f-980f59c12992
+  field_location:
+    -
+      entity: 43c9550d-f5c6-5210-89cd-9878849d51ce
+  field_shift:
+    -
+      value: '2027-01-30T14:00:00'
+      end_value: '2027-01-30T16:00:00'
+  field_summary:
+    -
+      value: 'Pack weekend snack bags for school kids.'

@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0d1abf5d-cead-507c-a5f4-61a3ef41438f
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    53ac21e5-99c5-550f-9d17-8e869043f03a: taxonomy_term
+    0e82b43c-2faf-5718-9a15-1dfad8a5f535: taxonomy_term
+    43c9550d-f5c6-5210-89cd-9878849d51ce: node
+    afc26712-8f30-528b-a50b-eb17f65e7f6a: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Saturday setup at Southfield'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 3
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 53ac21e5-99c5-550f-9d17-8e869043f03a
+    -
+      entity: 0e82b43c-2faf-5718-9a15-1dfad8a5f535
+  field_location:
+    -
+      entity: 43c9550d-f5c6-5210-89cd-9878849d51ce
+  field_shift:
+    -
+      value: '2027-01-16T13:00:00'
+      end_value: '2027-01-16T14:30:00'
+  field_skills:
+    -
+      entity: afc26712-8f30-528b-a50b-eb17f65e7f6a
+  field_summary:
+    -
+      value: 'Set up tables and stock before the doors open.'

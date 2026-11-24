@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e67f0ac0-d009-52ee-9dce-2fa6544365e0
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    53ac21e5-99c5-550f-9d17-8e869043f03a: taxonomy_term
+    2a453752-5cfe-53ce-83c7-6385c0b2fbcc: taxonomy_term
+    b8306c71-a2f8-50cc-adb6-0e9cece0ec7c: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Repack bulk rice'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 6
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 53ac21e5-99c5-550f-9d17-8e869043f03a
+    -
+      entity: 2a453752-5cfe-53ce-83c7-6385c0b2fbcc
+  field_location:
+    -
+      entity: b8306c71-a2f8-50cc-adb6-0e9cece0ec7c
+  field_shift:
+    -
+      value: '2027-01-22T14:00:00'
+      end_value: '2027-01-22T17:00:00'
+  field_summary:
+    -
+      value: 'Repack bulk rice into family-size bags.'

@@ -1,0 +1,3 @@
+name: 'DrupalHelps Site Building: Millbrook content'
+description: "Imports Millbrook's terms, 7 locations, 30 volunteer shifts, and 3 stories. It creates no content types or fields: it expects the ones students build in Module 2, with the course's exact machine names."
+type: 'Content'

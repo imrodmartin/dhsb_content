@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a66d28ee-7dea-54c8-8cd6-dcd3040dbf4a
+  bundle: story
+  default_langcode: en
+  depends:
+    b8306c71-a2f8-50cc-adb6-0e9cece0ec7c: node
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Twenty years at the warehouse'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_body:
+    -
+      value: "<p>Gloria Mendez started sorting cans at the warehouse in 2006. She hasn't missed a Tuesday since.</p>"
+      format: basic_html
+  field_location:
+    -
+      entity: b8306c71-a2f8-50cc-adb6-0e9cece0ec7c

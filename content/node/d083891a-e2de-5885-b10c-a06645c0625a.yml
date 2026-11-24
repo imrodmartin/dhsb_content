@@ -1,0 +1,65 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d083891a-e2de-5885-b10c-a06645c0625a
+  bundle: opportunity
+  default_langcode: en
+  depends:
+    53ac21e5-99c5-550f-9d17-8e869043f03a: taxonomy_term
+    01b8ec06-4a99-54f6-ba42-1bb028c20ee5: node
+    788adccd-8646-5b53-8952-e08e3cd3f2aa: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 0
+  title:
+    -
+      value: 'Greet clients in Spanish at Eastside'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  field_capacity:
+    -
+      value: 1
+  field_contact:
+    -
+      value: volunteer@millbrook.example
+  field_details:
+    -
+      value: '<p>Wear closed-toe shoes. Park in the side lot and sign in at the front desk.</p>'
+      format: basic_html
+  field_good_for:
+    -
+      entity: 53ac21e5-99c5-550f-9d17-8e869043f03a
+  field_location:
+    -
+      entity: 01b8ec06-4a99-54f6-ba42-1bb028c20ee5
+  field_shift:
+    -
+      value: '2027-01-12T14:00:00'
+      end_value: '2027-01-12T17:00:00'
+    -
+      value: '2027-01-26T14:00:00'
+      end_value: '2027-01-26T17:00:00'
+  field_skills:
+    -
+      entity: 788adccd-8646-5b53-8952-e08e3cd3f2aa
+  field_summary:
+    -
+      value: 'Welcome Spanish-speaking clients and help them check in.'

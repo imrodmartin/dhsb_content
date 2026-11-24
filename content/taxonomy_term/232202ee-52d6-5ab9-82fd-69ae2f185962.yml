@@ -1,0 +1,23 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 232202ee-52d6-5ab9-82fd-69ae2f185962
+  bundle: location_type
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Pantry
+  weight:
+    -
+      value: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
